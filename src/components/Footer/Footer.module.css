@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* top: var(--footer-height); */
+    justify-content: center;
+    text-align: center;
+    background-color:darkslategray
+}
+
+.container p {
+    color: white;
+}

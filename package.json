@@ -18,6 +18,16 @@
     "gatsby": "^3.9.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0"
   }
 }

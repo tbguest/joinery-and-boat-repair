@@ -1,0 +1,39 @@
+.container {
+    max-width: 100%;
+    height: var(--nav-height);
+    display: flex;
+    flex-direction: row;
+    background-color:#000000;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1.5rem; */
+}
+
+.logo_container {
+    height:calc(var(--nav-height) - 1rem);
+    /* width: 6rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.logo {
+    /* width: 100%; */
+    max-height: 100%;
+    color:aqua;
+}
+
+.nav_items {
+    flex-wrap: wrap;
+}
+
+.nav_items li {
+	display: inline;
+    padding: 1rem;
+}
+
+.nav_items a {
+    color: var(--font-color-light);
+    
+}
