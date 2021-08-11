@@ -1,12 +1,14 @@
 import React from 'react'
-import * as classes from '../styles/pages.module.css'
+// import * as classes from '../styles/pages.module.css'
+import Layout from '../components/Layout/Layout'
+import { Projects } from '../components/Projects/Projects'
 
 function ProjectsPage (props) {
   return (
     <>
-      <div className={classes.projects_container}>
-        <p>Project portfolio.</p>
-      </div>
+      <Layout>
+        <Projects />
+      </Layout>
     </>
   )
 }

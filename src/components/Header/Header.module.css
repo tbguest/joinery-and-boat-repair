@@ -31,6 +31,11 @@
 .nav_items li {
 	display: inline;
     padding: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monospace;
+    font-size: large;
 }
 
 .nav_items a {
