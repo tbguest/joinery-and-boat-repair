@@ -2,41 +2,32 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     border-radius: 0.25rem;
     overflow: hidden;
     box-shadow: 0px 0px 15px -5px;
     transition: 200ms;
-    animation: ease-in;
+    /* animation: ease-in; */
     cursor: pointer;
+    background-color: white;
+    /* min-height: 20rem; */
     
 }
 
 .container:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 15px 0px;
+    /* transform: scale(1.01); */
+    /* box-shadow: 0px 0px 15px -3px; */
+    filter:opacity(80%);
+    filter:
 }
 
-.image_container {
-    top: 0;
-    height: 60%;
-}
-
-.image_container img {
+.image {
     object-fit: cover;
     width: 100%;
     height: 12rem;
-    background-color: gray;
 }
 
-.content_container {
-    width: 100%;
-    height: 40%;
-    background-color: white;
-    /* padding: 0 1rem; */
-}
-
-.content_container h3 {
+.container h3 {
     padding: 0 1rem;
 }
 
